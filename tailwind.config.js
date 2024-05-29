@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
 // "module.exports" is the general js modules
 // "export const content" is the ES6 modules
